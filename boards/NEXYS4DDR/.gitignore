@@ -1,0 +1,10 @@
+/.Xil/
+/*.cache/
+/*.hbs/
+/*.runs/
+/*.sim/
+/*.ip_user_files/
+/*.hw/hw_*/
+
+/*.jou
+/*.log

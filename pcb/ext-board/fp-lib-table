@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name SemacSys)(type KiCad)(uri D:/dev/KiCADLib/SamacSys_Parts.pretty)(options "")(descr ""))
+  (lib (name ext-board)(type KiCad)(uri ${KIPRJMOD}/footprint/ext-board.pretty)(options "")(descr ""))
+)
