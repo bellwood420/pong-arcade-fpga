@@ -37,14 +37,13 @@ It would be nice to output video signal from VGA connector on typical FPGA board
 ## FPGA board
 
 Example project files available for the boards below:
-- Terasic DE0-CV (Intel/Altera CycloneV)
-- Digilent Nexys4 DDR (Xilinx Artix-7)
 
-The version of Quartus Prime I used was: 20.1  
-The version of Vivado I used was: 2020.1  
-
-Start button (COIN_SW) is assigned to KEY0 in DE0-CV and BTNC in Nexys4 DDR.
-Connector to external circuit is assigned to GPIO1 in DE0-CV and Pmod A in Nexys 4 DDR. 
+| Board | Terasic DE0-CV | Digilent Nexys4 DDR |
+|:---|:---|:---|
+|Chip|Intel/Altera Cyclone V|Xilinx Artix-7|
+|IDE version|Quartus Prime Lite Edition 20.1|Vivado 2020.1|
+|Start button <br> (COIN_SW)|KEY0|BTNC|
+|Connector|GPIO1|Pmod A|
 
 
 # References
