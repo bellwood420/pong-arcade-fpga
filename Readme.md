@@ -8,7 +8,8 @@ Original arcade version Pong(1972) by Atari implemented on FPGA with external an
 
 ## 1. Synchronous drive
 
-The original circuit consists of so many asynchronous aspects, causing unstability both in routing and running on FPGA.
+The original circuit consists of so many asynchronous aspects, causing unstability both in routing and running on FPGA.  
+
 To avoid it, I implemented whole circuit synchronously by treating clock signals to registers as datapaths for edge detection,
 and driving them by main clock.  
 
@@ -17,11 +18,13 @@ This technique is introduced in the [Reference 1](#References)
 ## 2. Real paddle input
 
 LMC555 and potentiometer on external circuit provide realistic paddle experience.  
+
 Conversely, you cannnot play without them...😇
 
 ## 3. Analog video & sound output
 
-RCA connectors on external circuit output NTSC spec video signal and line level sound signal.
+RCA connectors on external circuit output NTSC spec video signal and line level sound signal.  
+
 It would be nice to output video signal from VGA connector on typical FPGA boards, but I'm not good enough to make upscaler. 
 
 
