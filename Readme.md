@@ -44,6 +44,7 @@ The version of Quartus Prime I used was: 20.1
 The version of Vivado I used was: 2020.1  
 
 Start button (COIN_SW) is assigned to KEY0 in DE0-CV and BTNC in Nexys4 DDR.
+Connector to external circuit is assigned to GPIO1 in DE0-CV and Pmod A in Nexys 4 DDR. 
 
 
 # References
