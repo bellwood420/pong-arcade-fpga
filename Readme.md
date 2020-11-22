@@ -34,20 +34,20 @@ It would be nice to output video signal from VGA connector on typical FPGA board
 **You need external analog circuit** other than FPGA board to play the game.
 - Schematic availabe: pcb/ext-board/ext-board.pdf
 - PCB gerber files available: pcb/ext-board/gerber/
-- You can build it on breadboard or use PCB.
+- You can build it on breadboard, universal board or use my PCB.
 - PCB has 40-pins GPIO connector for Terasic FPGA boards and 12-pins Pmod connector for Digilent FPGA boards.
 
 ## FPGA board
 
 Example project files available for the boards below:
 
-| Board | Terasic DE0-CV | Digilent Nexys4 DDR |
-|:---|:---|:---|
-|Chip|Intel/Altera Cyclone V|Xilinx Artix-7|
-|IDE version|Quartus Prime Lite Edition 20.1|Vivado 2020.1|
-|Start button <br> (COIN_SW)|KEY0|BTNC|
-|Connector|GPIO1|Pmod A|
-
+|Board|Terasic DE0-CV|Digilent Nexys4 DDR|  |
+|:---|:---|:---|:---|
+|Chip|Intel/Altera Cyclone V|Xilinx Artix-7|  |
+|IDE version|Quartus Prime Lite Edition 20.1|Vivado 2020.1|  |
+|Start button<br>(COIN_SW)|KEY0|BTNC|  |
+|Match point selector<br>(SW1A/SW1B)|SW\[0]\/SW\[1]|SW\[0]\/SW\[1]|On: 15 pts, Off 11 pts|
+|Connector|GPIO1|Pmod A|See schematics or qsf/xdc for details|
 
 # References
 Without the following documents, I would not have been able to finish this project and understand the mystery of a video game built only on discrete logic ICs. 
