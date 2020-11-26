@@ -41,13 +41,45 @@ It would be nice to output video signal from VGA connector on typical FPGA board
 
 Example project files available for the boards below:
 
-|Board|Terasic DE0-CV|Digilent Nexys4 DDR|  |
-|:---|:---|:---|:---|
-|Chip|Intel/Altera Cyclone V|Xilinx Artix-7|  |
-|IDE version|Quartus Prime Lite Edition 20.1|Vivado 2020.1|  |
-|Start button<br>(COIN_SW)|KEY0|BTNC|  |
-|Match point selector<br>(SW1A/SW1B)|SW\[0]\/SW\[1]|SW\[0]\/SW\[1]|On: 15 pts, Off 11 pts|
-|Connector|GPIO1|Pmod A|See schematics or qsf/xdc for details|
+<table>
+  <tr>
+    <th align="left">Board</th>
+    <th align="left">Terasic<br>DE0-CV</th>
+    <th align="left">Terasic<br>DE-10 Nano</th>
+    <th align="left">Digilent<br>Nexys4 DDR</th>
+    <th></th>
+  </tr>
+  <tr>
+    <td>Chip</td>
+    <td colspan="2">Intel/Altera Cyclone V</td>
+    <td>Xilinx Artix-7</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>IDE version</td>
+    <td colspan="2">Quartus Prime Lite Edition 20.1</td>
+    <td>Vivado 2020.1</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Start button<br>(COIN_SW)</td>
+    <td colspan="2">KEY0</td>
+    <td>BTNC</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Match point sel<br>(SW1A/SW1B)</td>
+    <td colspan="3">SW[0]/SW[1]</td>
+    <td>On: 15 pts, Off 11 pts</td>
+  </tr>
+  <tr>
+    <td>Connector</td>
+    <td>GPIO1</td>
+    <td>GPIO0</td>
+    <td>Pmod A</td>
+    <td>See schematics or qsf/xdc for details</td>
+  </tr>
+</table>
 
 # References
 Without the following documents, I would not have been able to finish this project and understand the mystery of a video game built only on discrete logic ICs. 
