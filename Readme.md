@@ -68,7 +68,7 @@ Example project files available for the boards below:
     <td></td>
   </tr>
   <tr>
-    <td>Match point sel<br>(SW1A/SW1B)</td>
+    <td>Max point sel<br>(SW1A/SW1B)</td>
     <td colspan="3">SW[0]/SW[1]</td>
     <td>On: 15 pts, Off 11 pts</td>
   </tr>
